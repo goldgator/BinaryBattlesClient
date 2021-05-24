@@ -51,7 +51,7 @@ public class CSharpTests {
 
     @FXML
     void buttonToMainMenu(ActionEvent event) {
-
+        ViewUtils.LoadNewScene("MainMenu.fxml",event, getClass());
     }
 
 }

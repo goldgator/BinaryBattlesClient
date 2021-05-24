@@ -33,7 +33,7 @@ public class TestWindow {
 
     @FXML
     void buttonToMainMenu(ActionEvent event) {
-
+        ViewUtils.LoadNewScene("MainMenu.fxml",event, getClass());
     }
 
 }

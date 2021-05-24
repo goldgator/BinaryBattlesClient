@@ -51,7 +51,7 @@ public class JavaTests {
 
     @FXML
     void buttonToMainMenu(ActionEvent event) {
-
+        ViewUtils.LoadNewScene("MainMenu.fxml",event, getClass());
     }
 
 }
