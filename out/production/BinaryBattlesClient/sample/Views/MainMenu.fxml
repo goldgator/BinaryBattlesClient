@@ -64,7 +64,7 @@
             <Font name="Impact" size="23.0" />
          </font>
       </Button>
-      <Button fx:id="btnExit" mnemonicParsing="false" onAction="#buttonCloseApplication" prefHeight="38.0" prefWidth="122.0" style="-fx-background-color: #363738;" text="Exit" textFill="WHITE">
+      <Button fx:id="btnExit"  mnemonicParsing="false" onAction="#buttonCloseApplication" prefHeight="38.0" prefWidth="122.0" style="-fx-background-color: #363738;" text="Exit" textFill="WHITE">
          <font>
             <Font name="Impact" size="23.0" />
          </font>

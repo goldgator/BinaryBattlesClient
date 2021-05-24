@@ -105,7 +105,7 @@
             </VBox>
          </children>
       </HBox>
-      <Button fx:id="btnExit" mnemonicParsing="false" prefHeight="38.0" prefWidth="122.0" style="-fx-background-color: #363738;" text="Exit" textFill="WHITE">
+      <Button fx:id="btnExit" onAction="#buttonToMainMenu" mnemonicParsing="false" prefHeight="38.0" prefWidth="122.0" style="-fx-background-color: #363738;" text="Exit" textFill="WHITE">
          <font>
             <Font name="Impact" size="23.0" />
          </font>
