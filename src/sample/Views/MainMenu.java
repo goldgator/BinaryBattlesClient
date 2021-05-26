@@ -10,8 +10,9 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Control;
 import javafx.stage.Stage;
+import sample.Interfaces.SceneInitialize;
 
-public class MainMenu {
+public class MainMenu implements SceneInitialize {
 
     @FXML
     private Button btnJava;
@@ -27,17 +28,17 @@ public class MainMenu {
 
     @FXML
     void buttonJavaScreen(ActionEvent event) {
-        ViewUtils.LoadNewScene("JavaTests.fxml",event, getClass());
+        ViewUtils.LoadNewScene("JavaTests.fxml",event, getClass(), null);
     }
 
     @FXML
     void buttonCSharpScreen(ActionEvent event) {
-        ViewUtils.LoadNewScene("CSharpTests.fxml",event, getClass());
+        ViewUtils.LoadNewScene("CSharpTests.fxml",event, getClass(), null);
     }
 
     @FXML
     void buttonPythonScreen(ActionEvent event) {
-        ViewUtils.LoadNewScene("PythonTests.fxml",event, getClass());
+        ViewUtils.LoadNewScene("PythonTests.fxml",event, getClass(), null);
     }
 
     @FXML
@@ -45,5 +46,9 @@ public class MainMenu {
         System.exit(0);
     }
 
+    @Override
+    public void initialize(Stage stage) {
+
+    }
 }
 

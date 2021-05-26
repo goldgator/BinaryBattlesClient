@@ -55,12 +55,12 @@
                         <Font name="Impact" size="28.0" />
                      </font>
                   </Label>
-                  <Button fx:id="btnTest1" mnemonicParsing="false" prefHeight="38.0" prefWidth="122.0" style="-fx-background-color: #363738;" text="Test 1" textFill="WHITE">
+                  <Button fx:id="btnTest1" onAction="#buttonTest1" mnemonicParsing="false" prefHeight="38.0" prefWidth="122.0" style="-fx-background-color: #363738;" text="Test 1" textFill="WHITE">
                      <font>
                         <Font name="Impact" size="23.0" />
                      </font>
                   </Button>
-                  <Button fx:id="btnTest2" mnemonicParsing="false" prefHeight="38.0" prefWidth="122.0" style="-fx-background-color: #363738;" text="Test 2" textFill="WHITE">
+                  <Button fx:id="btnTest2" onAction="#buttonTest2" mnemonicParsing="false" prefHeight="38.0" prefWidth="122.0" style="-fx-background-color: #363738;" text="Test 2" textFill="WHITE">
                      <font>
                         <Font name="Impact" size="23.0" />
                      </font>
@@ -74,12 +74,12 @@
                         <Font name="Impact" size="28.0" />
                      </font>
                   </Label>
-                  <Button fx:id="btnTest3" mnemonicParsing="false" prefHeight="38.0" prefWidth="122.0" style="-fx-background-color: #363738;" text="Test 3" textFill="WHITE">
+                  <Button fx:id="btnTest3" onAction="#buttonTest3" mnemonicParsing="false" prefHeight="38.0" prefWidth="122.0" style="-fx-background-color: #363738;" text="Test 3" textFill="WHITE">
                      <font>
                         <Font name="Impact" size="23.0" />
                      </font>
                   </Button>
-                  <Button fx:id="btnTest4" mnemonicParsing="false" prefHeight="38.0" prefWidth="122.0" style="-fx-background-color: #363738;" text="Test 4" textFill="WHITE">
+                  <Button fx:id="btnTest4" onAction="#buttonTest4" mnemonicParsing="false" prefHeight="38.0" prefWidth="122.0" style="-fx-background-color: #363738;" text="Test 4" textFill="WHITE">
                      <font>
                         <Font name="Impact" size="23.0" />
                      </font>
@@ -96,7 +96,7 @@
                         <Insets />
                      </VBox.margin>
                   </Label>
-                  <Button fx:id="btnTest5" mnemonicParsing="false" prefHeight="38.0" prefWidth="122.0" style="-fx-background-color: #363738;" text="Test 5" textFill="WHITE">
+                  <Button fx:id="btnTest5" onAction="#buttonTest5" mnemonicParsing="false" prefHeight="38.0" prefWidth="122.0" style="-fx-background-color: #363738;" text="Test 5" textFill="WHITE">
                      <font>
                         <Font name="Impact" size="23.0" />
                      </font>

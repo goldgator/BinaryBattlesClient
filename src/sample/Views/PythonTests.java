@@ -3,8 +3,10 @@ package sample.Views;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
+import javafx.stage.Stage;
+import sample.Interfaces.SceneInitialize;
 
-public class PythonTests {
+public class PythonTests implements SceneInitialize {
 
     @FXML
     private Button btnTest1;
@@ -23,6 +25,15 @@ public class PythonTests {
 
     @FXML
     private Button btnExit;
+
+    private void setButtons(boolean active){
+        btnTest1.setDisable(active);
+        btnTest2.setDisable(active);
+        btnTest3.setDisable(active);
+        btnTest4.setDisable(active);
+        btnTest5.setDisable(active);
+        btnExit.setDisable(active);
+    }
 
     @FXML
     void buttonTest1(ActionEvent event) {
@@ -51,9 +62,13 @@ public class PythonTests {
 
     @FXML
     void buttonToMainMenu(ActionEvent event) {
-        ViewUtils.LoadNewScene("MainMenu.fxml",event, getClass());
+        ViewUtils.LoadNewScene("MainMenu.fxml",event, getClass(), null);
     }
 
+    @Override
+    public void initialize(Stage stage) {
+
+    }
 }
 
 
