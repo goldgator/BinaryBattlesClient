@@ -2,36 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/json_20210307.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Controllers/CSharpCompileRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Interfaces/SceneInitialize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Models/CompilationType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Models/TestModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Controllers/JavaCompile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Controllers/TestReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Resources/JVinchesToFeet.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Resources/JVisEven.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Resources/JVremoveWhiteSpace.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Resources/JVreverseString.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Resources/JVwordCount.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Resources/ResourceManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinaryBattlesClient.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BinaryBattlesClient.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BinaryBattlesClient/sample/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BinaryBattlesClient/sample/Controllers/CSharpCompileRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BinaryBattlesClient/sample/Controllers/CSharpCompileRequest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BinaryBattlesClient/sample/Views/CSharpTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BinaryBattlesClient/sample/Views/CSharpTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BinaryBattlesClient/sample/Views/CSharpTests.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BinaryBattlesClient/sample/Views/CSharpTests.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BinaryBattlesClient/sample/Views/JavaTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BinaryBattlesClient/sample/Views/JavaTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BinaryBattlesClient/sample/Views/JavaTests.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BinaryBattlesClient/sample/Views/JavaTests.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BinaryBattlesClient/sample/Views/MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BinaryBattlesClient/sample/Views/MainMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BinaryBattlesClient/sample/Views/PythonTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BinaryBattlesClient/sample/Views/PythonTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BinaryBattlesClient/sample/Views/PythonTests.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BinaryBattlesClient/sample/Views/PythonTests.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BinaryBattlesClient/sample/Views/TestWindow$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BinaryBattlesClient/sample/Views/TestWindow$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BinaryBattlesClient/sample/Views/TestWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BinaryBattlesClient/sample/Views/TestWindow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BinaryBattlesClient/sample/Views/ViewUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BinaryBattlesClient/sample/Views/ViewUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BinaryBattlesClient/sample/sample.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controllers/CSharpCompileRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controllers/CSharpCompileRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/Views/CSharpTests.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Views/CSharpTests.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/Views/CSharpTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Views/CSharpTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Views/JavaTests.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Views/JavaTests.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/Views/JavaTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Views/JavaTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Views/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Views/MainMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Views/PythonTests.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Views/PythonTests.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Views/PythonTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Views/PythonTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Views/TestWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Views/TestWindow.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/Views/TestWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Views/TestWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Views/ViewUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Views/ViewUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/sample.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,9 +75,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
-        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -241,13 +231,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -297,7 +289,10 @@
       <workItem from="1621628045742" duration="38000" />
       <workItem from="1621876604718" duration="4426000" />
       <workItem from="1621887974124" duration="473000" />
-      <workItem from="1622044678147" duration="14251000" />
+      <workItem from="1622044678147" duration="14891000" />
+      <workItem from="1622142150936" duration="11108000" />
+      <workItem from="1622222721791" duration="10966000" />
+      <workItem from="1622309243520" duration="7841000" />
     </task>
     <servers />
   </component>

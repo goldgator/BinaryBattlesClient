@@ -5,7 +5,10 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.stage.Stage;
 import sample.Controllers.CSharpCompileRequest;
+import sample.Controllers.JavaCompile;
 import sample.Interfaces.SceneInitialize;
+import sample.Models.CompilationType;
+import sample.Models.TestModel;
 
 public class JavaTests implements SceneInitialize {
 
@@ -38,27 +41,58 @@ public class JavaTests implements SceneInitialize {
 
     @FXML
     void buttonTest1(ActionEvent event) {
+        setButtons(true);
 
+        int testNum = 0;
+
+        startTest(testNum, event);
     }
 
     @FXML
     void buttonTest2(ActionEvent event) {
+        setButtons(true);
 
+        int testNum = 1;
+
+        startTest(testNum, event);
     }
 
     @FXML
     void buttonTest3(ActionEvent event) {
+        setButtons(true);
 
+        int testNum = 2;
+
+        startTest(testNum, event);
     }
 
     @FXML
     void buttonTest4(ActionEvent event) {
+        setButtons(true);
 
+        int testNum = 3;
+
+        startTest(testNum, event);
     }
 
     @FXML
     void buttonTest5(ActionEvent event) {
+        setButtons(true);
 
+        int testNum = 4;
+
+        startTest(testNum, event);
+    }
+
+    private void startTest(int testNum, ActionEvent event) {
+        String codeBase = JavaCompile.returnCodeBase(testNum);
+
+        String[] codeSplit = codeBase.split("//");
+
+        String testName = JavaCompile.getTestName(testNum);
+        TestModel model = new TestModel(CompilationType.JAVA, testName, codeSplit);
+
+        ViewUtils.LoadNewScene("TestWindow.fxml",event, getClass(), model);
     }
 
     @FXML

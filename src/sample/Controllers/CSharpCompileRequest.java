@@ -14,9 +14,11 @@ import java.net.URL;
 
 public class CSharpCompileRequest {
 
-    private static String[] testNames = new String[]{ "CSHSquare", "CSHAbsoluteValue" };
+    private static String[] testNames = new String[]{ "CSHSquare", "CSHAbsoluteValue", "CSHIsPrime", "CSHCountVowels", "CSHIsValidIP" };
     private static String getString = "https://binarybattlesapi.azurewebsites.net/api/values?testName=";
     private static String postString = "https://binarybattlesapi.azurewebsites.net/api/values";
+    //private static String getString = "https://localhost:44356/api/values?testName=";
+    //private static String postString = "https://localhost:44356/api/values";
 
     public static String getTestName(int index) {
         return testNames[index];
@@ -56,6 +58,8 @@ public class CSharpCompileRequest {
             con.setRequestProperty("Content-Type", "application/json; utf-8");
             con.setDoOutput(true);
 
+            userCode = userCode.replaceAll("\"", "\\\\\"");
+            System.out.println(userCode);
             String jsonSend = "{\"testName\": \"" + testName + "\", \"test\": \"" + userCode + "\" }";
 
             try(OutputStream os = con.getOutputStream()) {

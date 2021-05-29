@@ -1,0 +1,11 @@
+package com.company;
+
+import java.util.Arrays;
+
+public class InchesConversion {
+    /*Ex -- (24) -> (2), (18) -> (1.5)*/
+
+    public static float inchesToFeet(float inches) {
+        //Return the length of feet converting inches//
+    }
+}

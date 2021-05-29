@@ -9,6 +9,9 @@ import sample.Interfaces.SceneInitialize;
 import sample.Models.CompilationType;
 import sample.Models.TestModel;
 
+import javax.swing.*;
+import java.io.File;
+
 public class CSharpTests implements SceneInitialize {
 
 
@@ -45,6 +48,49 @@ public class CSharpTests implements SceneInitialize {
 
         int testNum = 0;
 
+        File file = new File("test");
+        if (!file.exists()) file.mkdir();
+
+        startTest(testNum, event);
+    }
+
+    @FXML
+    void buttonTest2(ActionEvent event) {
+        setButtons(true);
+
+        int testNum = 1;
+
+        startTest(testNum, event);
+    }
+
+    @FXML
+    void buttonTest3(ActionEvent event) {
+        setButtons(true);
+
+        int testNum = 2;
+
+        startTest(testNum, event);
+    }
+
+    @FXML
+    void buttonTest4(ActionEvent event) {
+        setButtons(true);
+
+        int testNum = 3;
+
+        startTest(testNum, event);
+    }
+
+    @FXML
+    void buttonTest5(ActionEvent event) {
+        setButtons(true);
+
+        int testNum = 4;
+
+        startTest(testNum, event);
+    }
+
+    private void startTest(int testNum, ActionEvent event) {
         String codeBase = CSharpCompileRequest.returnCodeBase(testNum);
         codeBase = codeBase.replaceAll("\\\\r\\\\n", "\n");
 
@@ -57,26 +103,6 @@ public class CSharpTests implements SceneInitialize {
         TestModel model = new TestModel(CompilationType.CSHARP, testName, codeSplit);
 
         ViewUtils.LoadNewScene("TestWindow.fxml",event, getClass(), model);
-    }
-
-    @FXML
-    void buttonTest2(ActionEvent event) {
-
-    }
-
-    @FXML
-    void buttonTest3(ActionEvent event) {
-
-    }
-
-    @FXML
-    void buttonTest4(ActionEvent event) {
-
-    }
-
-    @FXML
-    void buttonTest5(ActionEvent event) {
-
     }
 
     @FXML

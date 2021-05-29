@@ -13,6 +13,7 @@ import javafx.scene.text.TextFlow;
 import javafx.stage.Stage;
 import javafx.stage.Window;
 import sample.Controllers.CSharpCompileRequest;
+import sample.Controllers.JavaCompile;
 import sample.Interfaces.SceneInitialize;
 import sample.Models.CompilationType;
 import sample.Models.TestModel;
@@ -93,16 +94,21 @@ public class TestWindow implements SceneInitialize {
     private String verifyTest() {
         String userCode = inpUserCode.getText();
         String returnString = "";
-        switch (currentModel.type) {
-            case CSHARP:
-                returnString = CSharpCompileRequest.returnTestResults(currentModel.testName, userCode);
-                break;
-            case JAVA:
-                returnString = "Unimplemented";
-                break;
-            case PYTHON:
-                returnString = "Unimplemented";
-                break;
+        try {
+            switch (currentModel.type) {
+                case CSHARP:
+                    returnString = CSharpCompileRequest.returnTestResults(currentModel.testName, userCode);
+                    break;
+                case JAVA:
+                    userCode = ((Label) txtTopCode.getChildren().get(0)).getText() + userCode + ((Label) txtBottomCode.getChildren().get(0)).getText();
+                    returnString = JavaCompile.returnTestResults(currentModel.testName, userCode);
+                    break;
+                case PYTHON:
+                    returnString = "Unimplemented";
+                    break;
+            }
+        } catch (Throwable t) {
+            return t.getMessage();
         }
 
         returnString = returnString.replaceAll("\\\\n", "\n");

@@ -1,0 +1,11 @@
+package com.company;
+
+import java.util.Arrays;
+
+public class EvenTest {
+    /*Ex -- (2) -> (true), (5) -> (false)*/
+
+    public static boolean isEven(int num) {
+        //Return true or false depending on if the number is even or not//
+    }
+}

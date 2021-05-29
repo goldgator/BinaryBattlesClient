@@ -39,7 +39,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox fx:controller="sample.Views.CSharpTests" alignment="TOP_CENTER" prefHeight="400.0" prefWidth="640.0" spacing="10.0" style="-fx-background-color: #2F3337;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+<VBox alignment="TOP_CENTER" prefHeight="400.0" prefWidth="640.0" spacing="10.0" style="-fx-background-color: #2F3337;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Views.CSharpTests">
   <children>
   <Label alignment="CENTER" prefHeight="69.0" prefWidth="271.0" style="&#10;" text="C# Tests" textAlignment="CENTER" textFill="WHITE" wrapText="false">
     <font>
@@ -55,14 +55,14 @@
                         <Font name="Impact" size="28.0" />
                      </font>
                   </Label>
-                  <Button fx:id="btnTest1" onAction="#buttonTest1" mnemonicParsing="false" prefHeight="38.0" prefWidth="122.0" style="-fx-background-color: #363738;" text="Test 1" textFill="WHITE">
+                  <Button fx:id="btnTest1" mnemonicParsing="false" onAction="#buttonTest1" prefHeight="38.0" prefWidth="122.0" style="-fx-background-color: #363738;" text="Square" textFill="WHITE">
                      <font>
                         <Font name="Impact" size="23.0" />
                      </font>
                   </Button>
-                  <Button fx:id="btnTest2" onAction="#buttonTest2" mnemonicParsing="false" prefHeight="38.0" prefWidth="122.0" style="-fx-background-color: #363738;" text="Test 2" textFill="WHITE">
+                  <Button fx:id="btnTest2" mnemonicParsing="false" onAction="#buttonTest2" prefHeight="38.0" prefWidth="122.0" style="-fx-background-color: #363738;" text="Abs Value" textFill="WHITE">
                      <font>
-                        <Font name="Impact" size="23.0" />
+                        <Font name="Impact" size="18.0" />
                      </font>
                   </Button>
                </children>
@@ -74,14 +74,14 @@
                         <Font name="Impact" size="28.0" />
                      </font>
                   </Label>
-                  <Button fx:id="btnTest3" onAction="#buttonTest3" mnemonicParsing="false" prefHeight="38.0" prefWidth="122.0" style="-fx-background-color: #363738;" text="Test 3" textFill="WHITE">
+                  <Button fx:id="btnTest3" mnemonicParsing="false" onAction="#buttonTest3" prefHeight="38.0" prefWidth="122.0" style="-fx-background-color: #363738;" text="Is Prime" textFill="WHITE">
                      <font>
                         <Font name="Impact" size="23.0" />
                      </font>
                   </Button>
-                  <Button fx:id="btnTest4" onAction="#buttonTest4" mnemonicParsing="false" prefHeight="38.0" prefWidth="122.0" style="-fx-background-color: #363738;" text="Test 4" textFill="WHITE">
+                  <Button fx:id="btnTest4" mnemonicParsing="false" onAction="#buttonTest4" prefHeight="38.0" prefWidth="122.0" style="-fx-background-color: #363738;" text="Vowels" textFill="WHITE">
                      <font>
-                        <Font name="Impact" size="23.0" />
+                        <Font name="Impact" size="24.0" />
                      </font>
                   </Button>
                </children>
@@ -96,7 +96,7 @@
                         <Insets />
                      </VBox.margin>
                   </Label>
-                  <Button fx:id="btnTest5" onAction="#buttonTest5" mnemonicParsing="false" prefHeight="38.0" prefWidth="122.0" style="-fx-background-color: #363738;" text="Test 5" textFill="WHITE">
+                  <Button fx:id="btnTest5" mnemonicParsing="false" onAction="#buttonTest5" prefHeight="38.0" prefWidth="122.0" style="-fx-background-color: #363738;" text="Valid IP" textFill="WHITE">
                      <font>
                         <Font name="Impact" size="23.0" />
                      </font>
@@ -105,7 +105,7 @@
             </VBox>
          </children>
       </HBox>
-      <Button fx:id="btnExit" onAction="#buttonToMainMenu" mnemonicParsing="false" prefHeight="38.0" prefWidth="122.0" style="-fx-background-color: #363738;" text="Exit" textFill="WHITE">
+      <Button fx:id="btnExit" mnemonicParsing="false" onAction="#buttonToMainMenu" prefHeight="38.0" prefWidth="122.0" style="-fx-background-color: #363738;" text="Exit" textFill="WHITE">
          <font>
             <Font name="Impact" size="23.0" />
          </font>

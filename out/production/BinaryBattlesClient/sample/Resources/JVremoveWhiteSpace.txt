@@ -1,0 +1,11 @@
+package com.company;
+
+import java.util.Arrays;
+
+public class WhiteSpace {
+    /*Ex (  red ) -> (red), ( red  blue  green) -> (redbluegreen)*/
+
+    public static String removeWhiteSpace(String word) {
+        //Remove all traces of white space in the given string//
+    }
+}

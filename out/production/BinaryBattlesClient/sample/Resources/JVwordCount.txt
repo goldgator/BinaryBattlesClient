@@ -1,0 +1,11 @@
+package com.company;
+
+import java.util.Arrays;
+
+public class WordCount {
+    /*Ex -- (hello, how are you doing) -> (5), (I'm doing good) -> (3)*/
+
+    public static int wordCount(String sentence) {
+        //Return the amount of words in the given sentence//
+    }
+}
