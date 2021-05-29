@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sample/Controllers/JavaCompile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Controllers/TestReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Resources/JVinchesToFeet.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Resources/JVisEven.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Resources/JVremoveWhiteSpace.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Resources/JVreverseString.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Resources/JVwordCount.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Resources/ResourceManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BinaryBattlesClient/sample/Controllers/CSharpCompileRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BinaryBattlesClient/sample/Controllers/CSharpCompileRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BinaryBattlesClient/sample/Views/CSharpTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BinaryBattlesClient/sample/Views/CSharpTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BinaryBattlesClient/sample/Views/CSharpTests.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BinaryBattlesClient/sample/Views/CSharpTests.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BinaryBattlesClient/sample/Views/JavaTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BinaryBattlesClient/sample/Views/JavaTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BinaryBattlesClient/sample/Views/TestWindow$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BinaryBattlesClient/sample/Views/TestWindow$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BinaryBattlesClient/sample/Views/TestWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BinaryBattlesClient/sample/Views/TestWindow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Controllers/CSharpCompileRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controllers/CSharpCompileRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Views/CSharpTests.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Views/CSharpTests.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Views/CSharpTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Views/CSharpTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Views/JavaTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Views/JavaTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Views/TestWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Views/TestWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Views/JavaTests.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Views/JavaTests.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -292,7 +273,7 @@
       <workItem from="1622044678147" duration="14891000" />
       <workItem from="1622142150936" duration="11108000" />
       <workItem from="1622222721791" duration="10966000" />
-      <workItem from="1622309243520" duration="7841000" />
+      <workItem from="1622309243520" duration="8149000" />
     </task>
     <servers />
   </component>
